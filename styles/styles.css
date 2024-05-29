@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400..700&family=Indie+Flower&display=swap');
+
+.titulo1{
+    background-color: rgb(209, 172, 209);
+    font-size: 2rem;
+    color: black;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    }
+    .titulo2{
+        font-family: "Caveat", cursive;
+color: palevioletred;
+font-size: 35px;
+    }
+.titulo3{
+    font-family: "Indie Flower", cursive;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: purple;
+    font-family: "Indie Flower", cursive;
+}
+button:hover{
+    background-color: mediumpurple;
+}
+body{
+    background-color: #db99fa;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.table{
+    border-collapse: collapse;
+}
+.table td{
+    border: 1px solid;
+    text-align: center;
+}
+.table th{
+    background-color: rgb(223, 148, 253);
+    color: black;
+}
+.table td:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(235, 202, 225);
+}
+.table td:hover{
+    background-color: plum;
+    color: #D9AFD9;
+}
+.table td:hover{
+    background-color: rgb(223, 148, 253);
+    color: black;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-family: "Caveat", cursive;
+    font-size: 15px;
+}
